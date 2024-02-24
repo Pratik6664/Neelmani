@@ -1,0 +1,144 @@
+
+.heading-home{
+ height: 40vh;
+ width: 100%;
+background-size: cover;
+background-image: url('../img/background.jpg');
+background-repeat: no-repeat;
+z-index: -1;
+filter: blur(4px);
+position: absolute;
+}
+.title-home{
+    align-items: center;
+    text-align: center;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.discription-home{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.mid-home{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.mid-home-emoji{
+   height: 40px;
+   margin-left: 45px ;
+   margin-right: 45px ;
+   margin-bottom: 5px ;
+}
+.mid-line{
+   height: 1px;
+   border: 1px solid #e0dddd; 
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.description2{
+    color: rgb(246, 62, 62);
+    align-items: center;
+    text-align: center;
+}
+.title-home2{
+    align-items: center;
+    text-align: center;
+    color: var(--black);
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.how-it-work-card{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.zoom-emoji{
+   cursor: pointer;
+   transition: all 1s;
+}
+.zoom-emoji:hover{
+    transform: scale(1.3);
+}
+.title-3{
+    align-items: center;
+    text-align: center;
+    color: var(--black);
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.vendor-cards{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    width: auto;
+}
+
+.Event-container-title{
+  padding: 30px;
+  margin-left: 35px;
+}
+.Event-img1{
+    height: 300px;
+    width: 500px;
+    transition: all 1.2s;
+  
+}
+.Event-img1:hover{
+    transform: scale(1.2);
+    
+}
+.Event-container1{
+    height: 450px;
+    width: 500px;
+    overflow: hidden;
+}
+.Event-container2{
+    height: 450px;
+    width: 500px;
+    overflow: hidden;
+}
+.Event-container-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.Event-sub-heading{
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+    padding: 5px;
+    margin-top: 10px;
+}
+.Event-container-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Event-discription{
+    padding: 7px;
+}
+.Eimg{
+  overflow: hidden;  
+  box-shadow: 2px 2px 2px 2px rgb(255, 199, 243);
+  box-sizing: border-box;
+}

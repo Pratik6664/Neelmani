@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Footer{
+background-color: rgb(246, 204, 246) ;
+}
+.upside-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px 70px 10px 40px;
+  padding: 7px;
+}
+.logo-1{
+  height: 50px;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  border-radius: 5px;
+  padding: 4px;
+}
+.upside-footer-endline{
+  height: 1px;
+  border: 1px solid #838080; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-socialmedia-icon{
+  font-size: 20px;
+  height: 35px;
+  margin: 7px;
+}
+.footer-socialmedia>button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.footer-socialmedia>button:hover{
+  transform: scale(1.1);
+}
+.link-boxes{
+  display: flex;
+  justify-content: space-around;
+}
+.link_name{
+  font-weight: 600;
+}
+.box>li{
+ list-style: none;
+}
+.box>li>a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #595656;
+}
+.box>li>a:hover{
+ color: rgb(108, 5, 108);
+}
+.content .link-boxes .input-box{
+  margin-right: 55px;
+}
+.link-boxes .box .link_name{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+}
+.link-boxes .box .link_name::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #444343;
+}
+.link-boxes .input-box input{
+  height: 40px;
+  width: calc(100% + 55px);
+  outline: none;
+  border: 2px solid #AFAFB6;
+  background: rgb(158, 13, 158);
+  border-radius: 6px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.link-boxes .input-box input::placeholder{
+  color: #AFAFB6;
+  font-size: 16px;
+}
+.link-boxes .input-box input[type="button"]{
+  background: #fff;
+  color: #1d1072;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.input-box input[type="button"]:hover{
+  opacity: 1;
+}
+ .bottom-details{
+  width: 100%;
+  background: rgb(228, 168, 228);
+  margin-top: 20px;
+}
+ .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.bottom-details .bottom_text a{
+  margin-right: 10px;
+}
