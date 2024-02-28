@@ -14,36 +14,38 @@ const Navbar = () => {
         <div className="n-right">
           <ul style={{ listStyleType: "none" }}>
             
-              <li className="nav-text">Home</li>
+              <li className="nav-text"><NavLink to="/" className="nav-text-items">Home</NavLink></li>
             
             
               <li className="nav-text">
-             <NavLink to="/deoration">
+             <NavLink className="nav-text-items" to="/deoration">
                 Decoration
                 </NavLink> 
                 </li>
             
             
-              <li className="nav-text">Event</li>
+              <li className="nav-text" >
+               <NavLink className="nav-text-items" to="/event">  Event</NavLink></li>
             
             
-              <li className="nav-text">Gallery</li>
+              <li className="nav-text">
+                <NavLink className="nav-text-items" to="/gallery">Gallery</NavLink>
+              </li>
             
             
-              <li className="nav-text">Package</li>
+              <li className="nav-text">
+                <NavLink className="nav-text-items" to="/package">Package</NavLink>
+              </li>
           
           </ul>
           <button  className="n-button">
-            <a href="Link"  className="Nav-btn" target="blank">
-              List Your Bussiness
-            </a>
+         
+            <NavLink to="/listbusiness" className="Nav-btn">List Your Business</NavLink>
           </button>
 
           <button className="n-button">
-            <a href="Link" className="Nav-btn" target="blank">
-              {" "}
-              Contact
-            </a>
+           
+            <NavLink to="/navcontact" className="Nav-btn" >Contact</NavLink>
           </button>
         </div>
       </div>

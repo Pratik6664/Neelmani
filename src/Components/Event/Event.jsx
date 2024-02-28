@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Navbar from '../Navbar/Navbar'
 const Event = () => {
   return (
    <>
-   <div><h1>Event</h1></div></>
+   <div>
+   <Navbar/>
+    <h1>Event</h1>
+    </div>
+   </>
   )
 }
 

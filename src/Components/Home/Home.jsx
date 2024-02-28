@@ -28,6 +28,7 @@ import opeandining from "./opeandining.jpg";
 import openhall from "./openhall.png";
 import Planning from '../Planning/File'
 import Amenities from "../Amenities/Amenities";
+import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <>
@@ -116,7 +117,7 @@ const Home = () => {
         <VendorCards img={caters} heading={"Caters"}></VendorCards>
         <VendorCards img={mehandi} heading={"Mehandi Ceromany"}></VendorCards>
         <VendorCards img={makeup} heading={"Makeup Artist"}></VendorCards>
-        <VendorCards img={cakev} heading={"Photographer"}></VendorCards>
+        <VendorCards img={cakev} heading={"Cake "}></VendorCards>
         <VendorCards img={dj} heading={"DJ"}></VendorCards>
         <VendorCards img={eventplan} heading={"Event Planers"}></VendorCards>
       </div>
@@ -152,7 +153,7 @@ const Home = () => {
       </div>
       <Planning/>
       <Amenities/>
-
+      <Footer/>
     </>
   );
 };

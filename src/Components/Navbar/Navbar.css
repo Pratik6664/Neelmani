@@ -50,6 +50,7 @@
 .nav-text{
     padding: 10px;
     border-radius: 5px;
+   
 }
 .nav-text:active{
     color: rgb(128, 0, 0);
@@ -77,4 +78,7 @@
 .Nav-btn{
     text-decoration: none;
     color: black;
+}
+.nav-text-items{
+   text-decoration: none; 
 }
